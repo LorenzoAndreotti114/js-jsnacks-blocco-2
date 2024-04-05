@@ -1,18 +1,21 @@
-/**
- * Description placeholder
- * @date 4/5/2024 - 11:31:32 AM
- *
- * @param {*} nValue
- */
 function genNumbers (nValue) {
 
-    let result
+    let nArray = [];
     
-    for (let x = 1; x <= N; x++) {
-        let num1 = Math.floor(Math.random() * 100)
-        console.log(num1)
+    for (let x = 1; x <= 10; x++) {
+        let casualNum = Math.floor(Math.random() * 100);
+        nArray.push(casualNum);
+        
     }
 
-    return result
+    console.log(nArray);
+
+    return nArray;
+
+}
+
+function printarray (arrayToPrint) {
+
+
 
 }

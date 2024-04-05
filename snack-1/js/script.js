@@ -1,9 +1,9 @@
-N = parseInt (prompt("dimmi un numero"))
+let N = parseInt (prompt("dimmi un numero"))
 console.log(N, typeof N3);
 
-genNumbers (N)
+for (let x = 1; x <= N; x++) {
 
-totNumbers = 
+    genNumbers (N)
+}
 
-document.getElementById("list").innerHTML += `<li> ${result} </li>`
 
