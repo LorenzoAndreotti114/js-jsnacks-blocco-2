@@ -1,0 +1,1 @@
+inserire un N all'utente e genera N array ognuno formato da 10 numeri casuali tra 1 e 100, stampare a schermo ogni volta
