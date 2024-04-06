@@ -1,21 +1,17 @@
-function genNumbers (nValue) {
+function elementCounter (array) {
 
-    let nArray = [];
-    
-    for (let x = 1; x <= 10; x++) {
-        let casualNum = Math.floor(Math.random() * 100);
-        nArray.push(casualNum);
-        
+    let result
+
+    for (let x = 0; x <= array.length - 1; x++) {
+
+        console.log([x + 1])
+
+        numTot = x + 1
+
     }
 
-    console.log(nArray);
+    result = numTot
 
-    return nArray;
-
-}
-
-function printarray (arrayToPrint) {
-
-
+    console.log(`il totale degli elementi nell'array è: ${numTot}`);
 
 }

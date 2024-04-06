@@ -1,9 +1,3 @@
-let N = parseInt (prompt("dimmi un numero"))
-console.log(N, typeof N3);
+let arrayTest = ["pippo", "pluto", "paperino", "olga"]
 
-for (let x = 1; x <= N; x++) {
-
-    genNumbers (N)
-}
-
-
+elementCounter(arrayTest);
