@@ -1,13 +1,8 @@
-function arrayRemover (array, name) {
+function arrayTopRemover (array) {
 
     inputArray = array
 
-    for (let x = 0; x < inputArray.length; x++) {
-
-        if (inputArray[x] === name) {
-            inputArray.splice(x, 1);
-        }
-    }
+    inputArray.pop()
 
     console.log(inputArray);
 

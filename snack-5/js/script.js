@@ -3,6 +3,6 @@ console.log(arrayTest);
 
 alert(`in lista prima abbiamo ${arrayTest}`)
 
- arrayTopRemover(arrayTest);
+ arrayBottomRemover(arrayTest);
 
  alert(`in lista dopo rimangono ${arrayTest}`)
